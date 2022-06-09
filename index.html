@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/images (1).jpg" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="upp">
+        <div class="draw"></div>
+        
+      </div>
+      <div class="images">
+        <div class="computer">
+          <img src="./img/stoneComputer.png" class="computer" alt="" />
+        </div>
+        <div class="message">YOUR TURN TO PICK</div>
+        <div class="player">
+          <img src="./img/stonePlayer.png" class="player" alt="" />
+        </div>
+      </div>
+      <div class="points">
+        COMPUTER <span class="computerPoints">0</span> /
+        <span class="playerPoints">0</span> PLAYER
+      </div>
+      <div class="options">
+        <button type="button" class="stone">STONE</button>
+        <button type="button" class="paper">PAPER</button>
+        <button type="button" class="scissors">SCISSORS</button>
+      </div>
+      <div class="footer">
+        <button type="button" class="reset">RESET</button>
+      </div>
+    </div>
+    <audio
+      src="./sounds/ES_Scissors Open 2 - SFX Producer.wav"
+      id="scissors"
+    ></audio>
+    <audio src="./sounds/ES_Paper Turn - SFX Producer.wav" id="paper"></audio>
+    <audio
+      src="./sounds/ES_Handling Stones - SFX Producer.wav"
+      id="stone"
+    ></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>
