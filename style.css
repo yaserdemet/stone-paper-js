@@ -77,3 +77,57 @@ body {
   margin-top: 1rem;
 }
 
+.options button:hover {
+  background-color: darkcyan;
+  border: 1px solid darkcyan;
+}
+@keyframes shakeComputer {
+  0% {
+    transform: rotate(-30deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  75% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes shakePlayer {
+  0% {
+    transform: rotate(30deg);
+  }
+  25% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.draw {
+  color: rgb(240, 243, 64);
+}
+
+.upp {
+  margin-bottom: 0;
+  display: flex;
+  /* justify-content: center; */
+  /* border: 2px red solid; */
+  align-items: center;
+  height: 100px;
+  text-align: center;
+  flex-direction: column;
+  gap: 1rem;
+}
