@@ -132,4 +132,19 @@ buttons.addEventListener("click"  , (e) => {
    
 
 })
+const input = document.querySelector(".dark1");
+const label = document.querySelector(".dark2")
+input.addEventListener("click" , () => {
+    if(input.checked){
+        document.body.style.backgroundColor = "black"
+        label.innerHTML ="Dark Mode 🌑"
+    }
+    else if(!input.checked){
+        document.body.style.backgroundColor = "#2d2a3d"
+        label.innerHTML = "Light Mode 🌙"
+
+    }
+    
+})
+
 
