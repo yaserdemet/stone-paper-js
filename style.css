@@ -52,7 +52,7 @@ body {
   border-radius: 7px;
   width: 220px;
   white-space: nowrap;
-  cursor: pointer;
+  
   outline: none;
   transition: 0.2s all linear;
   font-weight: 900;
@@ -73,6 +73,7 @@ body {
   font-weight: 900;
 }
 .reset:hover {
+  cursor: url(./img/ef597d84b46393f0202733cc8ff1622d.jpg) , auto ;
   background-color: darkcyan;
   border: 1px solid darkcyan; 
 }
@@ -86,40 +87,7 @@ body {
   background-color: darkcyan;
   border: 1px solid darkcyan;
 }
-@keyframes shakeComputer {
-  0% {
-    transform: rotate(-30deg);
-  }
-  25% {
-    transform: rotate(30deg);
-  }
-  50% {
-    transform: rotate(-30deg);
-  }
-  75% {
-    transform: rotate(30deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-@keyframes shakePlayer {
-  0% {
-    transform: rotate(30deg);
-  }
-  25% {
-    transform: rotate(-30deg);
-  }
-  50% {
-    transform: rotate(30deg);
-  }
-  75% {
-    transform: rotate(-30deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
+
 
 .draw {
   color: rgb(240, 243, 64);
@@ -127,6 +95,13 @@ body {
 
 .upp{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+}
+.upp .dark {
+  margin-left: 3rem;
+}
+
+.upp .draw {
+  margin-left: 40rem;
 }
 
